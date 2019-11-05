@@ -1,0 +1,7 @@
+.center {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -100px;
+}
