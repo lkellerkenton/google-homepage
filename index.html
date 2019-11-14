@@ -4,47 +4,54 @@
     <link rel="stylesheet" type="text/css" href="mainstyles.css">
   </head>
   <body>
-      <nav>
-        <ul>
-          <div class="left">
-            <li><a href="">About</li>
-            <li><a href="">Store</li>
-          </div>
-          <div class="right">  
-            <li><button type="button">Sign In</button></li>  
-            <li><img src="images/dot-cube-icon.png"></li>
-            <li><a href=""></a>Gmail</a></li>
-            <li><a href=""></a>Images</a></li>
-          </div>
-        </ul>  
+      <nav> 
+        <div class="left-scrn">
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+          </ul>
+        </div>
+        <div class="right-scrn">
+          <ul>
+            <li><a href="">Gmail</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href=""><img src="images/dot-cube-icon.png"></a></li>
+            <li><button type="button" class="button" id="blue">Sign In</button></li>
+          </ul>
+        </div>
       </nav>
-      <main class=center>
-        <div>
-            <img alt="Google" src="images/googlelogo_color_272x92dp.png" height="92" width="272">
-          </div> 
-          <div>
-            <form>
-              <input type="text">
-            </form>
-            <button type="button" id="button-left">Google Search</button>
-            <button type="button" id="button-right">I'm Feeling Lucky</button>
+      <main>
+        <div class="content">
+          <div id="logo"><img src="images/googlelogo_color_272x92dp.png"></div>
+          <div id="search">
+            <textarea></textarea>
+            <div>
+              <button type="button">Google Search</button> 
+              <button type="button">I'm Feeling Lucky</button>
+            </div>           
           </div>
-          <div id="community-highlight-center">Celebrate National Veterans Small Business Week</div>  
-
+          <div id="icons">
+           <img id="left-icon" src="images/magifying-glass-icon.png">
+           <img id="right-icon" src="images/microphone-icon.png">
+          </div>
+        </div>
+       
       </main>
       <footer>
-        <ul>
-          <div class="left">
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>How Search Works</li>
-         </div>
-         <div class="right">
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
+        <div class="left-scrn">
+          <ul>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+          </ul>
         </div>
-        </ul>
+        <div class="right-scrn">
+          <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+          </ul>
+        </div>
       </footer>
   </body>
 </html>
